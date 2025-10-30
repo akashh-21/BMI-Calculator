@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <!-- -------- Box 1 -------- -->
+        <div class="box1">
+            <div class="content">
+                <h1 id="bmi"><span>BMI</span> Calculator</h1>
+                <p class="description">
+                    BMI (Body Mass Index) helps you understand if your weight is healthy for your height.
+                    It is a simple indicator of body fat based on your height and weight.
+                </p>
+                <p class="credit">
+                    By <strong>Kanuganti Aakash</strong>
+                </p>
+            </div>
+        </div>
+
+        <!-- -------- Box 2 -------- -->
+        <div class="box2">
+            <div class="bmi-calculator">
+                <h2>Calculate your BMI</h2>
+
+                <div class="input-group">
+                    <label>WEIGHT:</label>
+                    <input type="number" id="input1">
+                    <div class="value1" style="margin: 5px;">0 kg</div>
+                </div>
+
+                <div class="input-group">
+                    <label>HEIGHT:</label>
+                    <input type="number" id="input2">
+                    <div class="value2" style="margin: 5px;">0 m</div>
+                </div>
+
+                <button id="calc">CALCULATE</button>
+                <br><br>
+                <button id="reset">RESET</button>
+
+                <p class="result">Your BMI: <span>0.0</span></p>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
