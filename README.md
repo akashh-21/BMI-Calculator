@@ -6,7 +6,7 @@ This app allows users to calculate their BMI quickly by entering their **weight 
 ---
 ## 🚀 Live Demo
 
-🔗 **Deployed Link:** [Click here to view the live app](https://your-deployment-link-here.com)
+🔗 **Deployed Link:** [Click here to view the live app](https://bmi-calculator-zx3l.onrender.com)
 
 ---
 ## 🧠 What is BMI?  
